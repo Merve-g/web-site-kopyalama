@@ -1,0 +1,107 @@
+* {
+    padding: 0;       
+    margin: 0;      
+    text-decoration: none;  
+    text-align: center;     
+}   
+/* text decoration yazının altındaki çizgi. none ile kaldırdık. read more */
+/* paddin ve margin kenardaki boşlukları sıfırla. */
+/* text align center yazıyı ortala */
+
+.main {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('https://lifelaw.com.au/wp-content/uploads/2018/06/qtq80-6IMWXp.jpeg');
+    color: #926239;        
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* background-size: cover- arkaplan boyutu ekranı kapla */
+/* repeat: no repeat- resmi tekrarlama diyo */
+/* background-position: center- resmi ortala */
+/* backgroun image başka sayfadan alıntı */
+
+.main h1 {
+    padding-top: 20%;
+    font-size: 50px; 
+}
+
+.main p {
+    margin-top: 5px;
+    font-size: 22px;
+}
+/* size boyut zaten */
+/* margin-top dışüst boşluk */
+
+.btn {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 13px 20px;
+    display: inline-block;
+    border: 1px solid #926239;
+    border-radius: 10px;
+    color: #926239;
+    margin-bottom: 200px;
+    
+}
+/* display- ögenin nasıl görüntüleneceği */
+/* inline block- üst ve alt boşluk uygular. (margin padding gibi9 */
+/* padding 15px üst, 20px sağ. devam etseydi alt ve sol. */
+/* border-radius dış kenarlık kenarının köşelerini yuvarlar */
+
+.btn:hover{
+    background-color: #926239;
+    color: #fff;
+}
+/* hover mause ile butonun üzerine gelindiğinde renk değiştirmesi */
+
+.p {
+    background-color: #926239;
+    color: #fff;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+/* line-heinght satırlar arası yükseklik */
+
+.p1{
+    background-color: #fff;
+    color: #926239;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.box-1 {
+    font-family: sans-serif;
+    background-color: #926239;
+    color: #fff;
+    line-height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 33%;
+}
+
+.box-2 {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #926239;
+    line-height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px;
+    text-align: center;
+    width: 33%;
+}
+
+.a {
+    display: flex;
+}
+/* display flex yanyana bitişik kutular */
